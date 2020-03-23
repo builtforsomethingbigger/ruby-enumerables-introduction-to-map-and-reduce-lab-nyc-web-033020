@@ -1,20 +1,10 @@
 # My Code here....
 def map_to_negativize(array)
-  i = 0
-  while i < array.length do
-    array[i] *= -1
-    i += 1
-  end
-  array
+  negativized = array.map { |n| -n  }
 end
 
 def map_to_no_change(array)
-  i = 0
-  while i < array.length do
-    array[i] = array[i]
-    i += 1
-  end
-  array
+  changed = array.mpa { |n| n }
 end
 
 def map_to_double(array)
@@ -38,4 +28,8 @@ end
 
 def reduce_to_total(array, counter = 0)
   array.reduce(counter) {|sum, n| sum + n}
+end
+
+def reduce_to_all_true(array)
+
 end
