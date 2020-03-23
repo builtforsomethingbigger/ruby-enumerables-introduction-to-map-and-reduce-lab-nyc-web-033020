@@ -4,25 +4,15 @@ def map_to_negativize(array)
 end
 
 def map_to_no_change(array)
-  changed = array.mpa { |n| n }
+  changed = array.map { |n| n }
 end
 
 def map_to_double(array)
-  i = 0
-  while i < array.length do
-    array[i] = array[i]*2
-    i += 1
-  end
-  array
+  doubled = array.map { |n| n*2 }
 end
 
 def map_to_square(array)
-  i = 0
-  while i < array.length do
-    array[i] = array[i]**2
-    i += 1
-  end
-  array
+  squared = array.map { |n| n**2 }
 end
 
 
