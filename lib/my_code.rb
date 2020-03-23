@@ -21,5 +21,5 @@ def reduce_to_total(array, counter = 0)
 end
 
 def reduce_to_all_true(array)
-  array.reduce = all?
+  array.reduce == all?
 end
