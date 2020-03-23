@@ -39,4 +39,5 @@ end
 def reduce_to_total(array)
   counter = 0
   array.reduce(counter) {|sum, n| sum + n}
+  counter
 end
