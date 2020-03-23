@@ -32,5 +32,5 @@ def map_to_square(array)
     array[i] = array[i]**2
     i += 1
   end
-  array 
+  array
 end
